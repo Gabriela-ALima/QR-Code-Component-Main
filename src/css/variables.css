@@ -1,0 +1,6 @@
+:root{
+ --background-color-card: hsl(0, 0%, 100%);
+ --background-color-main: hsl(212, 45%, 89%);
+ --text-p-2: hsl(220, 15%, 55%);
+ --text-p-1: hsl(218, 44%, 22%)
+}

@@ -1,0 +1,41 @@
+body{
+    background-color: var(--background-color-main);
+    font-family: 'Outfit', sans-serif;;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 25px;
+}
+
+.qrcode-card{
+    max-width: 346px;
+    background-color: var(--background-color-card);
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.qrcode-card img{
+    display: flex;
+    position: relative;
+    width: 100%;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+.info-projects{
+    color: var(--text-p-1);
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+
+.info-qrcode{
+    color: var(--text-p-2);
+    font-size: 15px;
+    font-weight: 400;
+}
